@@ -193,7 +193,6 @@
 				2F13466D22C315F100BA38AB /* Sources */,
 				2F13466E22C315F100BA38AB /* Frameworks */,
 				2F13466F22C315F100BA38AB /* Resources */,
-				B97CF5EF1E0D5867E48666B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,32 +309,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B97CF5EF1E0D5867E48666B7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ADemo/Pods-ADemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BDemo_Category/BDemo_Category.framework",
-				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDemo_Category.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyFrame.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADemo/Pods-ADemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CA4E0B7600671FB09DC2E07F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
