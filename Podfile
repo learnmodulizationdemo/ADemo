@@ -7,5 +7,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'ADemo' do
+  
+  pod 'HandyFrame'
+  pod 'BDemo_Category'
  
 end
